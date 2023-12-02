@@ -8,6 +8,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    .advantages__item:nth-child(1) .advantages__item-img{
+      background-image: url("https://img.freepik.com/free-photo/still-life-business-roles-with-various-pawns_23-2149352586.jpg?w=2000&t=st=1701557368~exp=1701557968~hmac=0e9ce7878e27fc9c4ef7112cd96f4e777597b9ad536d16333b624f8d9e8f67b8");
+    }
+    .advantages__item:nth-child(2) .advantages__item-img{
+      background-image: url("https://sun9-56.userapi.com/impg/bon6_vpGz9be737KY7e1nqX8ksYwER5Tgpgh7Q/W9_yhvls4Qg.jpg?size=1000x667&quality=95&sign=3844219ace9f7250e914d98ce8a506fa&type=album");
+    }
+    .advantages__item:nth-child(3) .advantages__item-img{
+      background-image: url("https://sun9-6.userapi.com/impg/L09uHW8VQYHKS3j_4PvhfMvfEawLSeP1xURghg/NmKTHCXixy0.jpg?size=1000x667&quality=95&sign=eca143292a07aa6387e8cb20e6c2cd70&type=album");
+    }
+    .advantages__item:nth-child(4) .advantages__item-img{
+      background-image: url("https://sun9-29.userapi.com/impg/-d_gbneTUknDktBF1rPrVRYgUtdt1i2P_Syeew/FCPrzBv910E.jpg?size=1000x857&quality=95&sign=54a157a5cfe302bf2b7dff42752472fd&type=album");
+    }
+
     .advantages__item:nth-child(1), .advantages__item:nth-child(2) {
       margin-bottom: 40px;
     }
