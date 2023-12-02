@@ -1,0 +1,31 @@
+.header {
+  border-bottom: 1px solid gray;
+  padding: 20px 0;
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__logo {
+    margin-right: 25px;
+  }
+
+  .header__phone svg{
+    vertical-align: bottom;
+    margin-right: 2px;
+  }
+
+  .header__nav {
+    margin-left: auto;
+
+    .header__list {
+      display: flex;
+
+      .header__item:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+
+

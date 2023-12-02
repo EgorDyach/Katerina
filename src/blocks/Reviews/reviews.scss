@@ -1,0 +1,29 @@
+.reviews {
+  .reviews__item {
+    display: flex;
+    margin-bottom: 60px;
+    border-radius: 15px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 9px 6px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 9px 6px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 9px 6px rgba(34, 60, 80, 0.2);
+  }
+
+  .reviews__item-content, .reviews__item-img-name {
+    width: 49%;
+  }
+
+  .reviews__item-img-name {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+  }
+
+  .reviews__item-img {
+    height: 60%;
+    width: 100%;
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+  }
+
+}
